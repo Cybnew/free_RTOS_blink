@@ -1,0 +1,3 @@
+/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/pioasm/CMakeFiles/pioasm.dir
+/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/pioasm/CMakeFiles/rebuild_cache.dir
