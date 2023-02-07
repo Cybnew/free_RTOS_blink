@@ -100,12 +100,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "CMakeFiles/blink.dir/main.c.obj"
-  "CMakeFiles/blink.dir/main.c.obj.d"
-  "CMakeFiles/blink.dir/taskone.c.obj"
-  "CMakeFiles/blink.dir/taskone.c.obj.d"
-  "CMakeFiles/blink.dir/tasktwo.c.obj"
-  "CMakeFiles/blink.dir/tasktwo.c.obj.d"
   "blink.elf"
   "blink.pdb"
 )

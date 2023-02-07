@@ -71,6 +71,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/mathewrupp/Documents/Dev/freertos-pico/blink"
+  "/Users/mathewrupp/Documents/Dev/freertos-pico/blink/tasks"
   "/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_stdlib/include"
   "/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_base/include"
@@ -160,9 +161,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "/Users/mathewrupp/Documents/Dev/freertos-pico/blink/main.c" "CMakeFiles/blink.dir/main.c.obj" "gcc" "CMakeFiles/blink.dir/main.c.obj.d"
-  "/Users/mathewrupp/Documents/Dev/freertos-pico/blink/taskone.c" "CMakeFiles/blink.dir/taskone.c.obj" "gcc" "CMakeFiles/blink.dir/taskone.c.obj.d"
-  "/Users/mathewrupp/Documents/Dev/freertos-pico/blink/tasktwo.c" "CMakeFiles/blink.dir/tasktwo.c.obj" "gcc" "CMakeFiles/blink.dir/tasktwo.c.obj.d"
   "/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

@@ -69,52 +69,10 @@ include CMakeFiles/blink.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/blink.dir/flags.make
 
-CMakeFiles/blink.dir/main.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/main.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/blink/main.c
-CMakeFiles/blink.dir/main.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blink.dir/main.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/main.c.obj -MF CMakeFiles/blink.dir/main.c.obj.d -o CMakeFiles/blink.dir/main.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/blink/main.c
-
-CMakeFiles/blink.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/main.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathewrupp/Documents/Dev/freertos-pico/blink/main.c > CMakeFiles/blink.dir/main.c.i
-
-CMakeFiles/blink.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/main.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathewrupp/Documents/Dev/freertos-pico/blink/main.c -o CMakeFiles/blink.dir/main.c.s
-
-CMakeFiles/blink.dir/taskone.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/taskone.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/blink/taskone.c
-CMakeFiles/blink.dir/taskone.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/taskone.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/taskone.c.obj -MF CMakeFiles/blink.dir/taskone.c.obj.d -o CMakeFiles/blink.dir/taskone.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/blink/taskone.c
-
-CMakeFiles/blink.dir/taskone.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/taskone.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathewrupp/Documents/Dev/freertos-pico/blink/taskone.c > CMakeFiles/blink.dir/taskone.c.i
-
-CMakeFiles/blink.dir/taskone.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/taskone.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathewrupp/Documents/Dev/freertos-pico/blink/taskone.c -o CMakeFiles/blink.dir/taskone.c.s
-
-CMakeFiles/blink.dir/tasktwo.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/tasktwo.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/blink/tasktwo.c
-CMakeFiles/blink.dir/tasktwo.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/tasktwo.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/tasktwo.c.obj -MF CMakeFiles/blink.dir/tasktwo.c.obj.d -o CMakeFiles/blink.dir/tasktwo.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/blink/tasktwo.c
-
-CMakeFiles/blink.dir/tasktwo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/tasktwo.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mathewrupp/Documents/Dev/freertos-pico/blink/tasktwo.c > CMakeFiles/blink.dir/tasktwo.c.i
-
-CMakeFiles/blink.dir/tasktwo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/tasktwo.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mathewrupp/Documents/Dev/freertos-pico/blink/tasktwo.c -o CMakeFiles/blink.dir/tasktwo.c.s
-
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -128,7 +86,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -142,7 +100,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -156,7 +114,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -170,7 +128,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -184,7 +142,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -197,7 +155,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -211,7 +169,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -225,7 +183,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -239,7 +197,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -253,7 +211,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -267,7 +225,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -281,7 +239,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -295,7 +253,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -309,7 +267,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -323,7 +281,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -337,7 +295,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -351,7 +309,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -364,7 +322,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -378,7 +336,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -392,7 +350,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -406,7 +364,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -420,7 +378,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -434,7 +392,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -448,7 +406,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -462,7 +420,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -475,7 +433,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -489,7 +447,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -502,7 +460,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -515,7 +473,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -529,7 +487,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -543,7 +501,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -556,7 +514,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -569,7 +527,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -582,7 +540,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -596,7 +554,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -610,7 +568,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -623,7 +581,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -637,7 +595,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -650,7 +608,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -663,7 +621,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -677,7 +635,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -691,7 +649,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -705,7 +663,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -719,7 +677,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -733,7 +691,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -747,7 +705,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -761,7 +719,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -775,7 +733,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -789,7 +747,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -803,7 +761,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -817,7 +775,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -831,7 +789,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -845,7 +803,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -859,7 +817,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -873,7 +831,7 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/r
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -c /Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
 CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -886,9 +844,6 @@ CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/FreeRTOS-Kerne
 
 # Object files for target blink
 blink_OBJECTS = \
-"CMakeFiles/blink.dir/main.c.obj" \
-"CMakeFiles/blink.dir/taskone.c.obj" \
-"CMakeFiles/blink.dir/tasktwo.c.obj" \
 "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -949,9 +904,6 @@ blink_OBJECTS = \
 # External object files for target blink
 blink_EXTERNAL_OBJECTS =
 
-blink.elf: CMakeFiles/blink.dir/main.c.obj
-blink.elf: CMakeFiles/blink.dir/taskone.c.obj
-blink.elf: CMakeFiles/blink.dir/tasktwo.c.obj
 blink.elf: CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 blink.elf: CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 blink.elf: CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -1011,7 +963,7 @@ blink.elf: CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/Fre
 blink.elf: CMakeFiles/blink.dir/build.make
 blink.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 blink.elf: CMakeFiles/blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable blink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/blink.elf blink.hex
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/mathewrupp/Documents/Dev/freertos-pico/blink/build/blink.elf blink.bin

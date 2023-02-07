@@ -1388,78 +1388,6 @@ Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.s
-.PHONY : main.c.s
-
-taskone.obj: taskone.c.obj
-.PHONY : taskone.obj
-
-# target to build an object file
-taskone.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/taskone.c.obj
-.PHONY : taskone.c.obj
-
-taskone.i: taskone.c.i
-.PHONY : taskone.i
-
-# target to preprocess a source file
-taskone.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/taskone.c.i
-.PHONY : taskone.c.i
-
-taskone.s: taskone.c.s
-.PHONY : taskone.s
-
-# target to generate assembly for a file
-taskone.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/taskone.c.s
-.PHONY : taskone.c.s
-
-tasktwo.obj: tasktwo.c.obj
-.PHONY : tasktwo.obj
-
-# target to build an object file
-tasktwo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/tasktwo.c.obj
-.PHONY : tasktwo.c.obj
-
-tasktwo.i: tasktwo.c.i
-.PHONY : tasktwo.i
-
-# target to preprocess a source file
-tasktwo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/tasktwo.c.i
-.PHONY : tasktwo.c.i
-
-tasktwo.s: tasktwo.c.s
-.PHONY : tasktwo.s
-
-# target to generate assembly for a file
-tasktwo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/tasktwo.c.s
-.PHONY : tasktwo.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1622,15 +1550,6 @@ help:
 	@echo "... Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/mathewrupp/Documents/Dev/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... taskone.obj"
-	@echo "... taskone.i"
-	@echo "... taskone.s"
-	@echo "... tasktwo.obj"
-	@echo "... tasktwo.i"
-	@echo "... tasktwo.s"
 .PHONY : help
 
 

@@ -16,7 +16,8 @@ pico_sdk_init()
 add_executable(blink main.c taskone.c tasktwo.c)
 
 target_include_directories(blink PRIVATE ${CMAKE_CURRENT_LIST_DIR})
- 
+
+target_include_directories(blink PRIVATE tasks)
 # pull in common dependencies
 target_link_libraries(blink pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
 

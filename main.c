@@ -2,8 +2,8 @@
 #include "FreeRTOS.h"
 #include <stdio.h>
 #include "task.h"
-#include "taskone.h"
-#include "tasktwo.h"
+#include "src/tasks/tasktwo.h"
+#include "src/tasks/tasktwo.h"
 /*
 void vBlinkTask() {
 
